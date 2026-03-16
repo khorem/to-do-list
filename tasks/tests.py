@@ -95,8 +95,3 @@ class TaskViewsTest(TestCase):
 
         self.assertEqual(Task.objects.count(), 0)
         self.assertRedirects(response, "/")
-from django.test import TestCase
-
-class Exo7FailTest(TestCase):
-    def test_exo7_fail(self):
-        self.fail("exo7")
